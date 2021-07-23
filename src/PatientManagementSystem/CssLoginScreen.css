@@ -1,0 +1,33 @@
+.root{
+    -fx-background-color:#a6abe0;
+}
+
+#username , #password{
+    -fx-font-size:18px;
+    -fx-font-weight:bold;
+    -fx-radius:5;
+    -fx-background-radius:5;
+    
+}
+.label{
+    -fx-font-weight:bold;
+    -fx-font-size:18px;
+    -fx-text-fill:white;
+}
+.button{
+    
+    
+    -fx-text-fill:white;
+    -fx-font-size:16px;
+    -fx-font-weight:bold;
+    -fx-padding:5 50 5 50 ;
+    -fx-background-color:linear-gradient(#141d7d,#4b5194);
+    -fx-radius:20;
+    -fx-background-radius:20;
+}
+.button:hover{
+    
+        -fx-background-color:linear-gradient(#a6abe0,#0c1252);
+
+}
+
